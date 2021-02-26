@@ -31,7 +31,7 @@ header {
     
 }
 i {
-    color: white;
+    color: inherit;
 }
 header p {
     font-size: 15px;
@@ -51,9 +51,10 @@ header a {
     align-items: center;
 }
 .titreDroit {
-    background-color: orangered;
-    padding: 5px;
+    background-color: rgb(255, 145, 0);
+    padding: 10px;
     color: white;
+    position: relative;
 }
 section {
     border-top: 3px solid rgb(0, 95, 53);
