@@ -12,13 +12,8 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -36,8 +31,20 @@
           <a href="tel:+33 173 793 333">+33 173 793 333</a>
         </div>
       </header>
-      <section>
-        <form action="index.html" class="post">
+      <section >
+        <form  class= mx-6 action="index.html" method=" post ">
+           
+           <div class="titre">
+               <div class="titreGauche">
+                <h1>Comparateur de prix</h1>
+                <h2>Location de voiture</h2>
+               </div>
+               <div class="titreDroit">
+                   Annulation gratuite <i class="far fa-info-circle"></i>
+                   
+               </div>
+            
+           </div> 
             <div class="form-floating">
               <input
                 type="search"
@@ -51,7 +58,7 @@
               </label>
             </div>
             <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="check" />
+              <input type="checkbox" class="form-check-input" id="checkVille" />
               <label class="form-check-label" for="Check">
                 Retour dans une autre ville&nbsp?
               </label>
@@ -74,7 +81,15 @@
                     </div>
                   </div>
               </div>
-              
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="check" />
+                <label class="form-check-label" for="CheckAge">
+                  Conducteur agé entre 26 et 65 ans <i class="far fa-info-circle"></i>
+                </label>
+              </div>
+              <button type="button" class="btn btn-success">Rechercher</button>
+              <p><i class="far fa-info-circle"></i><a href="!#">Situation actuelle Covid 19</a></p>
+              <a href="!#">Plus d'options</a>
           </form> 
       </section>
       
